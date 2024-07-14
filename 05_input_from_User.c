@@ -1,28 +1,25 @@
-#include<conio.h>
-#include<stdio.h>
-int main(){
+#include <stdio.h>  
+
+int main() {
     int num;
     printf("Enter an integer: ");
-    scanf("%d", &num);
-    printf("You entered: %d\n", num);
-
+    scanf("%d", &num);   // Read an integer from user input
+    printf("You entered: %d\n", num);   // Print the entered integer
 
     float fnum;
     printf("Enter a float: ");
-    scanf("%f", &fnum);
-    printf("You entered: %f\n", fnum);
-
+    scanf("%f", &fnum);   // Read a float from user input
+    printf("You entered: %f\n", fnum);   // Print the entered float
 
     char ch;
     printf("Enter a character: ");
-    scanf(" %c", &ch);
-    printf("You entered: %c\n", ch);
+    scanf(" %c", &ch);   // Read a character from user input
+    printf("You entered: %c\n", ch);   // Print the entered character
 
     char str[100];
     printf("Enter a string: ");
-    scanf(" %s", &str);
-    printf("You entered: %s\n", str);
+    scanf(" %s", &str);   // Read a string from user input
+    printf("You entered: %s\n", str);   // Print the entered string
 
     return 0;
-
-    }
+}
